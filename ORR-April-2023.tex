@@ -156,7 +156,7 @@
   \caption{H1B paddle efficiency.}
 \end{Pic}
 
-\begin{List}{15.0}{(0.5, 11.)}
+\begin{List}{15.0}{(0.5, 14.)}
   \item Due to the angle of the detector it is hard to get good tracks in this plane. But this is issue will be resolved with beam.
 \end{List}
 \end{frame}
@@ -203,6 +203,62 @@
 \end{Pic}
 \end{frame}
 
+\begin{frame}{Hodoscope Efficiencies}
+\begin{Pic}{15.}{(0.5, 2.5)}
+  \includegraphics[width=15.0cm]{imgs/H2L_paddle_diff.png}
+  \caption{H2L paddle efficiency.}
+\end{Pic}
+\end{frame}
+
+\begin{frame}{Hodoscope Efficiencies}
+\begin{Pic}{15.}{(0.5, 2.5)}
+  \includegraphics[width=15.0cm]{imgs/H2R_paddle_diff.png}
+  \caption{H2R paddle efficiency.}
+\end{Pic}
+\end{frame}
+
+\begin{frame}{Hodoscope Efficiencies}
+\begin{Pic}{15.}{(0.5, 2.5)}
+  \includegraphics[width=15.0cm]{imgs/H4Y1Ll_paddle_diff.png}
+  \caption{H4Y1Ll paddle efficiency.}
+\end{Pic}
+\end{frame}
+
+\begin{frame}{Hodoscope Efficiencies}
+\begin{Pic}{15.}{(0.5, 2.5)}
+  \includegraphics[width=15.0cm]{imgs/H4Y1Lr_paddle_diff.png}
+  \caption{H4Y1Lr paddle efficiency.}
+\end{Pic}
+\end{frame}
+
+\begin{frame}{Hodoscope Efficiencies}
+\begin{Pic}{15.}{(0.5, 2.5)}
+  \includegraphics[width=15.0cm]{imgs/H4Y1Rl_paddle_diff.png}
+  \caption{H4Y1Rl paddle efficiency.}
+\end{Pic}
+\end{frame}
+
+\begin{frame}{Hodoscope Efficiencies}
+\begin{Pic}{15.}{(0.5, 2.5)}
+  \includegraphics[width=15.0cm]{imgs/H4Y1Rr_paddle_diff.png}
+  \caption{H4Y1Rr paddle efficiency.}
+\end{Pic}
+\end{frame}
+
+\begin{frame}{Hodoscope Efficiencies}
+\begin{Pic}{15.}{(0.5, 2.5)}
+  \includegraphics[width=15.0cm]{imgs/H4Y2Lr_paddle_diff.png}
+  \caption{H4Y2Lr paddle efficiency.}
+\end{Pic}
+\end{frame}
+
+\begin{frame}{Hodoscope Efficiencies}
+\begin{Pic}{15.}{(0.5, 2.5)}
+  \includegraphics[width=15.0cm]{imgs/H4Y2Rr_paddle_diff.png}
+  \caption{H4Y2Rr paddle efficiency.}
+\end{Pic}
+\end{frame}
+
 \begin{frame}[fragile]{Monitoring the Hodoscope Subsystem Remotely}
 \begin{List}{5.0}{(0.5, 2.5)}
 
@@ -218,10 +274,52 @@
 \end{Pic}
 \end{frame}
 
+\begin{frame}{Timing Resolution}
+\begin{textblock}{7.}(0.5, 2.0)
+\begin{center}
+\begin{tabular}{c c c}
+\hline
+Detector & Width (cm) & Resolution (ns) \\
+\hline
+H1T & 7.32 & 24.4 \\
+H1B & 7.32 & 24.4 \\
+H1L & 7.32 & 24.4 \\
+H1R & 7.32 & 24.4 \\
+H2T & 13.04 & 43.5 \\
+H2B & 13.04 & 43.5 \\
+H2L & 13.07 & 43.6 \\
+H2R & 13.07 & 43.6 \\
+\hline
+\end{tabular}
+\end{center}
+\end{textblock}
+
+\begin{textblock}{7.}(8., 2.0)
+\begin{center}
+\begin{tabular}{c c c}
+\hline
+Detector & Width (cm) & Resolution (ns) \\
+\hline
+H3T & 14.59 & 48.6 \\
+H3B & 14.59 & 48.6 \\
+H4T & 19.65 & 65.5 \\
+H4B & 19.65 & 65.5 \\
+H4Y1L & 23.48 & 78.3 \\
+H4Y1R & 23.48 & 78.3 \\
+H4Y2L & 23.48 & 78.3 \\
+H4Y2R & 23.48 & 78.3 \\
+\hline
+\end{tabular}
+\end{center}
+\end{textblock}
+
+\end{frame}
+
 \begin{frame}[fragile]{Plan for Spectrometer Commissioning}
 \begin{List}{15.0}{(0.5, 2.5)}
 
-  \item We plan to fine tune the detector efficiencies during the spectrometer commissioning.
+  \item We plan to fine tune the detector efficiencies during the spectrometer commissioning. We have prepared software for this task.
+  Using the current version it take 1 min 10.24 s to analyse 720k events.
 
   \item For this we plan to use 4 fold trigger similar to \verb|NIM1|.
 
